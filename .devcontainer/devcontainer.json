@@ -1,0 +1,28 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    // Configure properties specific to VS Code
+    "vscode": {
+      // Set _default_ container specific `settings.json` values on
+      // container create
+      "settings": {},
+      // cspell:disable
+      "extensions": [
+        "baincd.markdown-color-plus",
+        "bierner.github-markdown-preview",
+        "codezombiech.gitignore",
+        "david-reis.crashacters",
+        "editorconfig.editorconfig",
+        "nhoizey.gremlins",
+        "sandcastle.whitespace",
+        "shardulm94.trailing-spaces",
+        "trunk.io",
+        "valentjn.vscode-ltex",
+        "viktorzetterstrom.non-breaking-space-highlighter",
+        "xshrim.txt-syntax"
+      ]
+    }
+  }
+}
